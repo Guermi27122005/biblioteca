@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('iPhone\ Wallpapers\ 8_\ Mario\ Kart!\ \(1\)\ \(1\).png');
+    
+  }
+  h4{
+    color: white;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #585858;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px white;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .controls {
+    width: 100%;
+    background: #9c9c9c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #49d6a0;
+    font-family: 'calibri';
+    font-size: 18px;
+    
+  }
+  a{
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #49d6a0;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  @media( min-width:750px) and (max-width: 1366px){
+    .bod{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media(max-width: 300px){
+    .columna{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
